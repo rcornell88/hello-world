@@ -1,0 +1,106 @@
+@charset "ISO-8859-1";
+
+
+html, body  { 
+	font-family: arial, helvetica, sans-serif; 
+	padding: 0;
+	margin: 0;
+	width:100%;			
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+#wrapper {
+	margin: 0 auto;
+	width: 960px;
+	font: arial;
+	color: #989696;
+	background: white;
+	
+}	
+
+
+
+.site-title {
+	color: black;
+	font: bold 1.8em Arial;
+	margin-top: 20px;
+	
+	
+}
+
+.site-title a {
+	color: black;
+}
+
+.site-title a:hover {
+	color: #5b64e6;
+}
+
+nav {
+	border-bottom: 1px black;
+	padding: 0px;
+	font-size: .9em;
+	
+}
+nav ul {
+	padding:0;
+	border-bottom: 1px solid #ededed;
+	border-top: 1px solid #ededed;
+	
+
+}
+
+nav ul li {
+	display: inline-block;
+	color: blue;
+	padding: 12px;
+	
+	
+}
+
+nav ul li a {
+	color: black;
+	size: .8em;
+	
+}
+
+nav ul li a:hover {
+	color: #5b64e6;
+	
+}	
+
+hgroup {
+	color: black;
+	
+}
+
+h2.sitecontent {
+	font-size:.8em;
+	
+	
+}
+
+
+img {
+	float:left;
+	margin: 0.857142857rem 1.714285714rem 0.857142857rem 0;
+}
+#sitecontent {
+	font-size: .9em;
+}
+#sitecontent a {
+	color: black;
+}
+#sitecontent a:hover {
+	color: #5b64e6;
+}
+
+#feedbackform {
+	font-size: .8em;
+	display: none;
+
+}
